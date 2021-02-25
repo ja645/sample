@@ -19,7 +19,7 @@ echo PHP_EOL;
 //3.
 $hello = "Hello,";
 $name = "Okayama";
-$world = "s World!";
+$world = "'s World!";
 
 echo $hello . $name . $world;
 echo PHP_EOL;
@@ -27,8 +27,7 @@ echo PHP_EOL;
 //4.
 $tech_boost = "tech";
 
-echo $tech_boost . "boost";
-echo PHP_EOL;
+echo $tech_boost . " boost" . PHP_EOL;
 
 //5.
 $calender_2018 = [          //変数の初めが数字&配列は"{}"でなく"[]"
