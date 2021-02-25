@@ -1,22 +1,22 @@
 <?php
 //課題1.
-function double($number){
+function double($number) {
   return $number * 2;
 }
 echo double(13);
 echo "\n";
 
 //2.
-function sum($a, $b){
+function sum($a, $b) {
   return $a + $b;
 }
 echo sum(5, 78);
 echo "\n";
 
 //3.
-function multiply($arr){
+function multiply($arr) {
   $result = 1;
-  foreach($arr as $value){
+  foreach($arr as $value) {
     $result =  $result * $value;
   }
   
@@ -28,14 +28,14 @@ echo multiply($arr);
 echo "\n";
 
 //4.
-function max_array($arr){
+function max_array($arr) {
 // とりあえず配列の最初の要素を一番大きい値とする
  $max_number = $arr[0];
- foreach($arr as $a){
+ foreach($arr as $a) {
  //どうしたらいいかわからない・・・・
  
  //$max_numberと$aを比較し、$aが大きい場合は$aの値で$max_numberを更新する
-  if($max_number < $a){                  
+  if($max_number < $a) {                  
     $max_number = $a;
   } 
  }
@@ -75,7 +75,7 @@ var_dump($array);
 /* time 現在時刻のタイムスタンプを取得
    mktime 指定時刻のタイムスタンプを取得 */
 $now = time();
-$weekend = mktime(46, 59, 59, 7, 43, 1999);
+$weekend = mktime(23, 59, 59, 7, 9, 1999);
 
 echo $now;
 echo "\n";
